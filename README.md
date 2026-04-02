@@ -1,7 +1,8 @@
-📊 Projeto Power BI – Análise de Metas (2017–2019)
+📊 Projeto Power BI – Análise de Metas
+
 📌 Sobre o Projeto
 
-Este projeto tem como objetivo analisar e acompanhar o desempenho de metas ao longo dos anos de 2017, 2018 e 2019, 
+Este projeto tem como objetivo analisar e acompanhar o desempenho de metas ao longo dos anos de,
 utilizando o Power BI para transformar dados brutos em insights visuais e estratégicos.
 
 A proposta é criar um dashboard interativo que permita identificar tendências, comparar resultados e apoiar a tomada de decisão.
@@ -19,6 +20,7 @@ Os dados utilizados estão organizados em arquivos Excel:
 4_1_meta_2017.xlsx
 4_1_meta_2018.xlsx
 4_1_meta_2019.xlsx
+
 🔹 Possíveis campos (exemplo)
 Ano
 Mês
@@ -26,11 +28,13 @@ Meta
 Resultado Real
 Diferença (Meta x Real)
 Percentual de atingimento
+
 ⚙️ Ferramentas Utilizadas
 Power BI Desktop
 Excel (como fonte de dados)
 Power Query (tratamento de dados)
 DAX (criação de medidas e KPIs)
+
 🔄 ETL (Tratamento dos Dados)
 
 Etapas realizadas no Power Query:
@@ -41,10 +45,12 @@ Criação de coluna de Ano
 União das tabelas (Append)
 Tratamento de valores nulos
 Tipagem correta dos dados
+
 📈 Modelagem de Dados
 Tabela fato: Metas
 Possível tabela dimensão: Calendário
 Relacionamentos baseados em data/ano
+
 🧮 Medidas DAX (exemplos)
 Total Meta = SUM(Metas[Meta])
 
@@ -87,11 +93,8 @@ Publicar no Power BI Service
 Criar versão mobile do dashboard
 
 📌 Status do Projeto
-
 🚧 Em desenvolvimento
 
 👨‍💻 Autor
 Projeto desenvolvido por Daniel Francisco Sabino Rocha
-👨‍💻 Autor
 
-Projeto desenvolvido por Daniel Francisco Sabino Rocha
